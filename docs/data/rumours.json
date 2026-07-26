@@ -1,1 +1,86 @@
-{}
+{
+ "aur-lien-tchouam-ni": {
+  "subject": "Aurélien Tchouaméni",
+  "first_seen": "2026-07-26",
+  "last_seen": "2026-07-26",
+  "mentions": 1,
+  "best_tier": 3,
+  "temperature": 12.0,
+  "sources": [
+   "ESPN"
+  ],
+  "status": "live"
+ },
+ "eduardo-camavinga": {
+  "subject": "Eduardo Camavinga",
+  "first_seen": "2026-07-26",
+  "last_seen": "2026-07-26",
+  "mentions": 1,
+  "best_tier": 3,
+  "temperature": 12.0,
+  "sources": [
+   "ESPN"
+  ],
+  "status": "live"
+ },
+ "marcus-rashford": {
+  "subject": "Marcus Rashford",
+  "first_seen": "2026-07-26",
+  "last_seen": "2026-07-26",
+  "mentions": 2,
+  "best_tier": 3,
+  "temperature": 24.0,
+  "sources": [
+   "ESPN"
+  ],
+  "status": "live"
+ },
+ "yan-diomande": {
+  "subject": "Yan Diomande",
+  "first_seen": "2026-07-26",
+  "last_seen": "2026-07-26",
+  "mentions": 1,
+  "best_tier": 4,
+  "temperature": 5.0,
+  "sources": [
+   "Bleacher Report"
+  ],
+  "status": "live"
+ },
+ "warren-zaire-emery": {
+  "subject": "Warren Zaire-Emery",
+  "first_seen": "2026-07-26",
+  "last_seen": "2026-07-26",
+  "mentions": 1,
+  "best_tier": 4,
+  "temperature": 5.0,
+  "sources": [
+   "Bleacher Report"
+  ],
+  "status": "live"
+ },
+ "joshua-zirkzee": {
+  "subject": "Joshua Zirkzee",
+  "first_seen": "2026-07-26",
+  "last_seen": "2026-07-26",
+  "mentions": 1,
+  "best_tier": 4,
+  "temperature": 5.0,
+  "sources": [
+   "Bleacher Report"
+  ],
+  "status": "live"
+ },
+ "alex-scott": {
+  "subject": "Alex Scott",
+  "first_seen": "2026-07-26",
+  "last_seen": "2026-07-26",
+  "mentions": 1,
+  "best_tier": 4,
+  "temperature": 5.0,
+  "sources": [
+   "Goal.com"
+  ],
+  "status": "live"
+ }
+}

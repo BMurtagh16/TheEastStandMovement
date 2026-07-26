@@ -1,1 +1,38 @@
-[]
+[
+ {
+  "utcDate": "2026-08-22T11:30:00Z",
+  "home": "Hull City",
+  "away": "Man United",
+  "competition": "Premier League"
+ },
+ {
+  "utcDate": "2026-08-30T15:30:00Z",
+  "home": "Man United",
+  "away": "Ipswich Town",
+  "competition": "Premier League"
+ },
+ {
+  "utcDate": "2026-09-06T13:00:00Z",
+  "home": "Everton",
+  "away": "Man United",
+  "competition": "Premier League"
+ },
+ {
+  "utcDate": "2026-09-13T15:30:00Z",
+  "home": "Man United",
+  "away": "Man City",
+  "competition": "Premier League"
+ },
+ {
+  "utcDate": "2026-09-20T15:30:00Z",
+  "home": "Fulham",
+  "away": "Man United",
+  "competition": "Premier League"
+ },
+ {
+  "utcDate": "2026-10-10T14:00:00Z",
+  "home": "Man United",
+  "away": "Tottenham",
+  "competition": "Premier League"
+ }
+]
