@@ -140,3 +140,18 @@ def main():
     stamp = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
     save("wire.json", {"collected": stamp, "items": items})
     save(f"archive/{today}.json", {"collected": stamp, "items": items})
+ mood = update_mood(items, today)
+    book = update_rumours(items, today)
+
+    fixtures = fd.upcoming(6)
+    if fixtures:
+        save("fixtures.json", fixtures)
+
+    save("cost.json", cc.totals())
+
+    live = sum(1 for e in book.values() if e["status"] == "live")
+    print(f"{len(items)} stories · mood {mood} · {live} live rumours")
+
+
+if __name__ == "__main__":
+    main()
