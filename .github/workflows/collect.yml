@@ -27,7 +27,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
-          CLAUDE_MODEL: claude-sonnet-5
+          CLAUDE_MODEL: claude-haiku-4-5-20251001
         run: python collect_wire.py
 
       - name: Commit the results
