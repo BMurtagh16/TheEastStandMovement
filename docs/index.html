@@ -4,75 +4,140 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The East Stand Movement</title>
-<meta name="description" content="A record of Manchester United, marked the same way every week.">
+<meta name="description" content="Manchester United, marked the same way every week. Independent and unofficial.">
+<meta name="theme-color" content="#101010">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
+<a class="skip" href="#wire">Skip to the wire</a>
+
 <header class="mast">
-  <div class="wrap mast-in">
-    <div>
-      <p class="mast-eyebrow">Independent · unofficial · not affiliated with any club</p>
-      <h1 class="mast-word">The East Stand<br>Movement</h1>
-    </div>
-    <div class="mast-mood" id="moodBlock">
-      <div class="mast-label">Mood index</div>
-      <div class="mood-num" id="moodNum">—</div>
-      <svg class="mood-spark" id="moodSpark" viewBox="0 0 200 44" preserveAspectRatio="none" aria-hidden="true"></svg>
-      <div class="mast-label" id="moodSub">Awaiting the first run</div>
+  <div class="wrap">
+    <div class="mast-rule"><span>Independent · unofficial · no affiliation with any club</span><span id="issueNo">No. 1</span></div>
+
+    <div class="mast-grid">
+      <h1 class="wordmark">The<br>East Stand<br>Movement</h1>
+
+      <div class="gauge-box">
+        <svg class="gauge" viewBox="0 0 220 132" role="img" aria-labelledby="gaugeTitle">
+          <title id="gaugeTitle">Mood index</title>
+          <path class="gauge-track" d="M20 118 A 90 90 0 0 1 200 118" />
+          <path class="gauge-fill" id="gaugeFill" d="M20 118 A 90 90 0 0 1 200 118" />
+          <line class="gauge-needle" id="gaugeNeedle" x1="110" y1="118" x2="110" y2="42" />
+          <circle class="gauge-hub" cx="110" cy="118" r="6" />
+          <text class="gauge-end" x="20" y="130">−100</text>
+          <text class="gauge-end" x="200" y="130" text-anchor="end">+100</text>
+        </svg>
+        <div class="gauge-read"><span id="moodNum">—</span></div>
+        <div class="gauge-label">Mood index · <span id="moodTrend">awaiting first run</span></div>
+      </div>
     </div>
   </div>
 </header>
 
-<div class="ticker">
-  <div class="wrap ticker-in">
-    <span id="tickCost">Running cost: —</span>
-    <span id="tickCalls">—</span>
-    <span id="tickNext">Next: —</span>
-    <span id="tickUpdated">Updated: —</span>
+<nav class="nav" aria-label="Sections">
+  <div class="wrap nav-in">
+    <a href="#match">The card</a>
+    <a href="#rumours">Rumours</a>
+    <a href="#wire">The wire</a>
+    <a href="#numbers">Numbers</a>
+    <span class="nav-spacer"></span>
+    <span class="nav-cost" id="navCost">—</span>
+  </div>
+</nav>
+
+<div class="matchday" id="matchday" hidden>
+  <div class="wrap matchday-in">
+    <div class="md-label" id="mdLabel">Next fixture</div>
+    <div class="md-fixture" id="mdFixture">—</div>
+    <div class="md-clock" id="mdClock">—</div>
   </div>
 </div>
 
-<main class="wrap">
+<main>
 
-  <section class="block" id="matchBlock">
-    <h2 class="block-h">The last match, marked</h2>
-    <div id="matchCard" class="loading">Reading the card…</div>
+  <section class="sec" id="match">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>The last match, marked</h2>
+        <p>Six axes, the same six every week, so November is comparable with March.</p>
+      </div>
+      <div id="matchCard" class="empty">Nothing marked yet — the first card appears within a day of the next fixture finishing.</div>
+    </div>
   </section>
 
-  <section class="block">
-    <h2 class="block-h">Rumour board</h2>
-    <p class="block-note">Temperature rises with credible repetition and decays by
-      12% a day. Anything untouched for three weeks moves to the graveyard, with
-      its lifespan and the outlets that carried it.</p>
-    <div id="rumourBoard" class="loading">Reading the board…</div>
+  <section class="sec sec-dark" id="rumours">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>The rumour board</h2>
+        <p>Temperature climbs with credible repetition and cools 12% a day. Three weeks untouched and it goes to the graveyard, with its lifespan and the outlets that carried it.</p>
+      </div>
+      <div id="rumourLive" class="empty">Nothing on the board yet.</div>
+      <details class="grave" id="graveWrap" hidden>
+        <summary>The graveyard <span id="graveCount"></span></summary>
+        <div id="rumourDead"></div>
+      </details>
+    </div>
   </section>
 
-  <section class="block">
-    <h2 class="block-h">The wire</h2>
-    <div class="chips" id="chips"></div>
-    <div id="wire" class="loading">Reading the wire…</div>
+  <section class="sec" id="wire">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>The wire</h2>
+        <p>Summarised and linked, never republished. Follow the source before repeating anything.</p>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Filter stories"></div>
+      <div id="wireList" class="empty">Reading the wire…</div>
+    </div>
+  </section>
+
+  <section class="sec sec-dark" id="numbers">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>The numbers</h2>
+        <p>Everything this site has recorded since it started. The record is the point; any single day is disposable.</p>
+      </div>
+
+      <div class="chart-grid">
+        <figure class="chart-box">
+          <figcaption>Mood across the season</figcaption>
+          <div class="chart-hold"><canvas id="moodChart"></canvas></div>
+          <p class="chart-note" id="moodChartNote"></p>
+        </figure>
+        <figure class="chart-box">
+          <figcaption>How early he reacts</figcaption>
+          <div class="chart-hold"><canvas id="reactChart"></canvas></div>
+          <p class="chart-note" id="reactChartNote">Minute of the first real change, against how much the substitutions shifted the game.</p>
+        </figure>
+      </div>
+
+      <div class="tally" id="tally"></div>
+    </div>
   </section>
 
 </main>
 
 <footer class="foot">
-  <div class="wrap">
-    <p><strong>How this is made.</strong> Scores, lineups and substitution minutes
-      come from football-data.org and are verifiable. Everything else — the marks,
-      the manager card, the mood index — is a language model reading published
-      journalism and applying a fixed rubric. It is structured opinion, not
-      analytics. It has no tracking data and no xG feed. Where a card could not be
-      checked against the results feed it is labelled unverified.</p>
-    <p>Stories are summarised and linked, never republished. Follow the source
-      before repeating anything.</p>
-    <p class="foot-cost" id="footCost"></p>
+  <div class="wrap foot-grid">
+    <div>
+      <h3>How this is made</h3>
+      <p>Scores, lineups and substitution minutes come from football-data.org and are verifiable. Everything else — the marks, the manager card, the mood index — is a language model reading published journalism and applying a fixed rubric.</p>
+      <p><strong>It is structured opinion, not analytics.</strong> There is no tracking data and no xG feed. Any card that could not be checked against the results feed is labelled unverified.</p>
+    </div>
+    <div>
+      <h3>What it costs</h3>
+      <p id="footCost">—</p>
+      <p>Every call this site makes is metered and logged. The running total is published because a site that hides its workings is not worth reading.</p>
+      <p class="foot-small">Club names and trademarks belong to their owners. Nothing here is endorsed by or connected to any club.</p>
+    </div>
   </div>
 </footer>
 
-<script src="./app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" defer></script>
+<script src="./app.js" defer></script>
 </body>
 </html>
