@@ -15,10 +15,12 @@ import re
 import requests
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-USAGE_CSV = ROOT / "docs" / "data" / "usage.csv"
+USAGE_CSV = ROOT / "logs" / "usage.csv"
 API_URL = "https://api.anthropic.com/v1/messages"
 
 # USD per million tokens (input, output).
+# Sonnet 5 runs at an introductory $2/$10 until 31 Aug 2026, then $3/$15.
+# The higher rate is used here deliberately so the log never flatters itself.
 PRICES = {
     "claude-sonnet-5": (3.00, 15.00),
     "claude-haiku-4-5-20251001": (1.00, 5.00),
@@ -125,3 +127,20 @@ def totals():
         "cost_usd": round(sum(float(r["cost_usd"] or 0) for r in rows), 4),
         "since": rows[0]["timestamp"][:10] if rows else None,
     }
+
+
+def step_summary(job):
+    """Print the running cost into the workflow run summary, not the website."""
+    t = totals()
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    line = ("### " + job + "\n\n"
+            "- Runs so far: " + str(t["calls"]) + "\n"
+            "- Searches: " + str(t["searches"]) + "\n"
+            "- Total spend: $" + ("%.4f" % t["cost_usd"]) + "\n")
+    print("Running total: $" + ("%.4f" % t["cost_usd"]) + " over " + str(t["calls"]) + " runs")
+    if path:
+        try:
+            with open(path, "a") as fh:
+                fh.write(line)
+        except OSError:
+            pass

@@ -1,2 +1,0 @@
-timestamp,job,model,tokens_in,tokens_out,searches,cost_usd,ok
-2026-07-26T22:17:57+00:00,wire,claude-sonnet-5,19296,4636,2,0.14743,1

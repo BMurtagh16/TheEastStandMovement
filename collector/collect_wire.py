@@ -133,7 +133,7 @@ def update_rumours(items, today):
 
 def main():
     today = dt.date.today().isoformat()
-    items = cc.ask_json(PROMPT, job="wire", max_tokens=9000, max_searches=2)
+    items = cc.ask_json(PROMPT, job="wire", max_tokens=3000, max_searches=4)
     items = [i for i in items if i.get("headline")]
 
     stamp = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
@@ -147,7 +147,7 @@ def main():
     if fixtures:
         save("fixtures.json", fixtures)
 
-    save("cost.json", cc.totals())
+    cc.step_summary("Wire")
 
     live = 0
     for entry in book.values():
