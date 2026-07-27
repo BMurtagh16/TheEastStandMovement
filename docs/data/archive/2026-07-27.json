@@ -1,65 +1,39 @@
 {
- "collected": "2026-07-27T10:31+00:00",
+ "collected": "2026-07-27T21:38+00:00",
  "items": [
   {
-   "headline": "United beat Rosenborg 5-0 in pre-season friendly",
-   "summary": "Michael Carrick's side defeated Rosenborg in Trondheim with goals including Shea Lacey's opener and Joshua Zirkzee's contribution.",
-   "source": "Manchester United",
-   "url": "https://www.manutd.com/en/news",
-   "published": "26 Jul",
+   "headline": "Carrick wins first match as permanent United manager with 5-0 rout of Rosenborg",
+   "summary": "Manchester United defeated Rosenborg 5-0 in pre-season friendly in Norway. Carrick's side showed convincing display with strong individual performances after opening defeat to Wrexham.",
+   "source": "Sky Sports",
+   "url": "https://www.skysports.com/football/news/11095/13566755/rosenborg-0-5-man-utd-what-we-learned-after-michael-carricks-side-picked-up-first-win-of-2026-27-pre-season",
+   "published": "25 Jul",
    "category": "match",
    "tone": 2,
    "is_rumour": false,
    "rumour_subject": "",
-   "source_tier": 1
+   "source_tier": 3,
+   "people": [
+    "Michael Carrick",
+    "Joshua Zirkzee",
+    "Shea Lacey",
+    "JJ Gabriel"
+   ]
   },
   {
-   "headline": "Sesko recovery progressing ahead of season",
-   "summary": "Benjamin Sesko is reported as \"getting there\" with his recovery from injury ahead of the 2026-27 campaign.",
-   "source": "Manchester United",
-   "url": "https://www.manutd.com/en/news",
-   "published": "26 Jul",
+   "headline": "Benjamin Sesko sidelined with shin injury during pre-season preparations",
+   "summary": "Manchester United striker Benjamin Sesko unavailable for Rosenborg match due to shin injury. Goalkeeper Karl Darlow also recovering from minor surgery.",
+   "source": "Yahoo Sports",
+   "url": "https://sports.yahoo.com/articles/watch-rosenborg-vs-manchester-united-183204929.html",
+   "published": "24 Jul",
    "category": "team news",
-   "tone": 1,
+   "tone": -1,
    "is_rumour": false,
    "rumour_subject": "",
-   "source_tier": 1
-  },
-  {
-   "headline": "Manchester United confirm Women's signing Leitzig",
-   "summary": "Manchester United Women have completed the transfer of a player named Leitzig.",
-   "source": "Manchester United",
-   "url": "https://www.manutd.com/en/news",
-   "published": "26 Jul",
-   "category": "transfers",
-   "tone": 1,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 1
-  },
-  {
-   "headline": "United reveal new 2026-27 away kit design",
-   "summary": "Manchester United unveiled their new away kit for next season inspired by rare design elements.",
-   "source": "Manchester United",
-   "url": "https://www.manutd.com/en/news",
-   "published": "22 Jul",
-   "category": "club",
-   "tone": 1,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 1
-  },
-  {
-   "headline": "Carrick finalizes permanent manager contract",
-   "summary": "Michael Carrick confirmed as permanent Manchester United manager after leading club to Champions League qualification.",
-   "source": "The National",
-   "url": "https://www.thenationalnews.com/sport/football/2026/07/26/manchester-united-pre-season-update-transfers-injuries-and-marcus-rashfords-situation/",
-   "published": "26 Jul",
-   "category": "club",
-   "tone": 2,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 3
+   "source_tier": 3,
+   "people": [
+    "Benjamin Sesko",
+    "Karl Darlow"
+   ]
   }
  ]
 }
