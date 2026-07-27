@@ -3,9 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The East Stand Movement</title>
-<meta name="description" content="Manchester United, marked the same way every week. Independent and unofficial.">
+<title>The East Stand Movement — Manchester United, marked every week</title>
+<meta name="description" content="Manchester United coverage marked on the same six axes every week, with a manager card, a rumour board you can call, and a searchable archive. Independent and unofficial.">
 <meta name="theme-color" content="#0D0D0D">
+<link rel="canonical" href="https://theeaststandmovement.github.io/TheEastStandMovement/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The East Stand Movement">
+<meta property="og:description" content="Manchester United, marked the same way every week. Mark it yourself, call the rumours, search the archive.">
+<meta property="og:url" content="https://theeaststandmovement.github.io/TheEastStandMovement/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The East Stand Movement">
+<meta name="twitter:description" content="Manchester United, marked the same way every week.">
+<link rel="alternate" type="application/rss+xml" title="The East Stand Movement" href="./feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -27,7 +36,7 @@
 
       <div class="gauge-box">
         <svg class="gauge" viewBox="0 0 220 132" role="img" aria-labelledby="gaugeTitle">
-          <title id="gaugeTitle">Mood index</title>
+          <title id="gaugeTitle">Coverage index</title>
           <path class="gauge-track" d="M20 118 A 90 90 0 0 1 200 118" />
           <path class="gauge-fill" id="gaugeFill" d="M20 118 A 90 90 0 0 1 200 118" />
           <line class="gauge-needle" id="gaugeNeedle" x1="110" y1="118" x2="110" y2="42" />
@@ -36,7 +45,7 @@
           <text class="gauge-end" x="200" y="130" text-anchor="end">+100</text>
         </svg>
         <div class="gauge-read"><span id="moodNum">—</span></div>
-        <div class="gauge-label">Mood index · <span id="moodTrend">awaiting first run</span></div>
+        <div class="gauge-label">Coverage index · <span id="moodTrend">awaiting first run</span></div>
       </div>
     </div>
   </div>
@@ -47,6 +56,7 @@
     <a href="#match">The card</a>
     <a href="#rumours">Rumours</a>
     <a href="#wire">The wire</a>
+    <a href="#archive">Archive</a>
     <a href="#record">Your record</a>
   </div>
 </nav>
@@ -56,10 +66,17 @@
     <div class="md-label" id="mdLabel">Next fixture</div>
     <div class="md-fixture" id="mdFixture">—</div>
     <div class="md-clock" id="mdClock">—</div>
+    <button class="md-cal" id="calBtn" hidden>Add fixtures to calendar</button>
   </div>
 </div>
 
 <main>
+
+  <section class="sec sec-tint" id="predict">
+    <div class="wrap">
+      <div id="predictPanel" class="empty">No fixture scheduled to predict yet.</div>
+    </div>
+  </section>
 
   <section class="sec" id="match">
     <div class="wrap">
@@ -67,7 +84,6 @@
         <h2>The last match, marked</h2>
         <p>Six axes, the same six every week, so November is comparable with March. Mark it yourself first — the card stays hidden until you do.</p>
       </div>
-
       <div id="markPanel" class="empty">Nothing to mark yet. The first card appears within a day of the next fixture finishing.</div>
       <div id="matchCard" hidden></div>
     </div>
@@ -92,14 +108,39 @@
     <div class="wrap">
       <div class="sec-head">
         <h2>The wire</h2>
-        <p>Summarised and linked, never republished. Follow the source before repeating anything.</p>
+        <p>Summarised and linked, never republished. Follow the source before repeating anything. <a class="rss" href="./feed.xml">RSS</a></p>
       </div>
       <div class="chips" id="chips" role="group" aria-label="Filter stories"></div>
       <div id="wireList" class="empty">Reading the wire…</div>
     </div>
   </section>
 
-  <section class="sec sec-dark" id="record">
+  <section class="sec sec-dark" id="archive">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>The archive</h2>
+        <p>Every story this site has collected, searchable. Type a name, a club, a word.</p>
+      </div>
+
+      <div class="arch-grid">
+        <div>
+          <div class="search-bar">
+            <input id="searchBox" type="search" placeholder="Try a player's name…" aria-label="Search the archive" autocomplete="off">
+            <span class="search-count" id="searchCount"></span>
+          </div>
+          <div id="searchResults" class="empty">The archive fills as the wire runs.</div>
+        </div>
+
+        <aside>
+          <h3 class="rail-h">Most mentioned</h3>
+          <p class="rail-note" id="peopleNote">Last 30 days.</p>
+          <div id="peopleBoard" class="empty">No names yet.</div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="record">
     <div class="wrap">
       <div class="sec-head">
         <h2>Your record</h2>
@@ -110,7 +151,7 @@
 
       <div class="chart-grid">
         <figure class="chart-box">
-          <figcaption>Mood across the season</figcaption>
+          <figcaption>Coverage across the season</figcaption>
           <div class="chart-hold"><canvas id="moodChart"></canvas></div>
           <p class="chart-note" id="moodChartNote"></p>
         </figure>
@@ -129,14 +170,16 @@
 
 <footer class="foot">
   <div class="wrap">
-    <p class="colophon">Facts from football-data.org. Marks, mood and rumour tiers are generated from published reporting using a fixed rubric — opinion, not analytics.
+    <p class="colophon">Facts from football-data.org. Marks, coverage readings and rumour tiers are generated from published reporting using a fixed rubric — opinion, not analytics. Substitution minutes are read from match reports and should be treated as estimates.
       <details class="about"><summary>More on how this is made</summary>
-        <p>Scores, lineups and substitution minutes come from football-data.org and are verifiable. The marks, the manager card and the mood index are produced by a language model reading published journalism and applying the same rubric every week. There is no tracking data and no xG feed. Any card that could not be checked against the results feed is labelled unverified.</p>
+        <p>Scores and fixtures come from football-data.org and are verifiable. The marks, the manager card and the coverage index are produced by a language model reading published journalism and applying the same rubric every week. There is no tracking data and no xG feed. Any card that could not be checked against the results feed is labelled unverified.</p>
         <p>Stories are summarised with attribution and a link, never republished. Club names and trademarks belong to their owners, and nothing here is endorsed by or connected to any club.</p>
       </details>
     </p>
   </div>
 </footer>
+
+<canvas id="shareCanvas" width="1080" height="1080" hidden></canvas>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" defer></script>
 <script src="./app.js" defer></script>
