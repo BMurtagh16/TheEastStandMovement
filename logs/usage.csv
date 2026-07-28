@@ -1,2 +1,3 @@
 timestamp,job,model,tokens_in,tokens_out,searches,cost_usd,ok
 2026-07-27T21:38:52+00:00,wire,claude-haiku-4-5-20251001,27383,849,2,0.05163,1
+2026-07-28T09:30:02+00:00,wire,claude-haiku-4-5-20251001,16358,986,2,0.04129,1
