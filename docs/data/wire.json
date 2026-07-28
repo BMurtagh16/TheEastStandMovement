@@ -1,67 +1,32 @@
 {
- "collected": "2026-07-28T09:30+00:00",
+ "collected": "2026-07-28T19:03+00:00",
  "items": [
   {
-   "headline": "Sesko 'getting there' with recovery from injury",
-   "summary": "Benjamin Sesko continues rehabilitation at Carrington after missing pre-season friendlies. The forward is progressing but not yet at full training intensity.",
-   "source": "Manchester United (official)",
-   "url": "https://www.manutd.com/en/news",
-   "published": "27 Jul",
-   "category": "team news",
-   "tone": 0,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 1,
-   "people": [
-    "Benjamin Sesko"
-   ]
-  },
-  {
-   "headline": "United beat Rosenborg 5-0 in pre-season friendly",
-   "summary": "Michael Carrick claimed first win as permanent manager. Academy players and Joshua Zirkzee impressed in routine victory in Norway.",
-   "source": "Bleacher Report",
-   "url": "https://bleacherreport.com/manchester-united",
-   "published": "27 Jul",
+   "headline": "Man Utd beat Rosenborg 5-0 in pre-season friendly in Norway",
+   "summary": "Manchester United won their second pre-season match 5-0 against Rosenborg in Trondheim on Friday, with further fixtures planned against Atletico Madrid, PSG, Leeds United.",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/sport/football/2026/07/26/manchester-united-pre-season-update-transfers-injuries-and-marcus-rashfords-situation/",
+   "published": "26 Jul",
    "category": "match",
    "tone": 2,
    "is_rumour": false,
    "rumour_subject": "",
    "source_tier": 3,
-   "people": [
-    "Michael Carrick",
-    "Joshua Zirkzee"
-   ]
+   "people": []
   },
   {
-   "headline": "Martinez future uncertain after Copa America injury",
-   "summary": "Lisandro Martinez to be medically evaluated on return to pre-season. World Cup winner's future depends on recovery assessment.",
-   "source": "The Week",
-   "url": "https://www.theweek.in/news/sports/2026/07/22/manchester-united-transfers-lisandro-martinezs-injury-to.html",
-   "published": "22 Jul",
-   "category": "injuries",
-   "tone": -1,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 3,
-   "people": [
-    "Lisandro Martinez"
-   ]
-  },
-  {
-   "headline": "Pre-season update: transfers, injuries and Rashford situation",
-   "summary": "United lost out on transfer targets including Anderson to Man City (£116m). Sesko back training on grass. Santos impressing in fitness work.",
-   "source": "The National",
-   "url": "https://www.thenationalnews.com/sport/football/2026/07/26/manchester-united-pre-season-update-transfers-injuries-and-marcus-rashfords-future/",
-   "published": "26 Jul",
+   "headline": "Youri Tielemans signed from Aston Villa for £35m",
+   "summary": "Belgian midfielder Youri Tielemans completed his transfer to Manchester United from Aston Villa via release clause as a key summer signing.",
+   "source": "TeamTalk",
+   "url": "https://www.teamtalk.com/manchester-united/every-completed-man-utd-transfer-summer-2026-signings-exits-loans",
+   "published": "24 Jul",
    "category": "transfers",
-   "tone": 0,
+   "tone": 2,
    "is_rumour": false,
    "rumour_subject": "",
    "source_tier": 3,
    "people": [
-    "Benjamin Sesko",
-    "Andrey Santos",
-    "Marcus Rashford"
+    "Youri Tielemans"
    ]
   }
  ]
