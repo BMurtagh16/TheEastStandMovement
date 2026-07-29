@@ -1,11 +1,11 @@
 {
  "window_days": 30,
- "updated": "2026-07-28",
+ "updated": "2026-07-29",
  "board": [
   {
    "name": "Benjamin Sesko",
-   "count": 3,
-   "last": "2026-07-28"
+   "count": 4,
+   "last": "2026-07-29"
   },
   {
    "name": "Joshua Zirkzee",
@@ -33,6 +33,11 @@
    "last": "2026-07-27"
   },
   {
+   "name": "Leitzig",
+   "count": 1,
+   "last": "2026-07-29"
+  },
+  {
    "name": "Lisandro Martinez",
    "count": 1,
    "last": "2026-07-28"
@@ -46,6 +51,11 @@
    "name": "Shea Lacey",
    "count": 1,
    "last": "2026-07-27"
+  },
+  {
+   "name": "Tynan Thompson",
+   "count": 1,
+   "last": "2026-07-29"
   },
   {
    "name": "Youri Tielemans",
