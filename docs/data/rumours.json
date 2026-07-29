@@ -5,7 +5,7 @@
   "last_seen": "2026-07-26",
   "mentions": 1,
   "best_tier": 3,
-  "temperature": 3.8,
+  "temperature": 2.6,
   "sources": [
    "ESPN"
   ],
@@ -17,7 +17,7 @@
   "last_seen": "2026-07-26",
   "mentions": 1,
   "best_tier": 3,
-  "temperature": 3.8,
+  "temperature": 2.6,
   "sources": [
    "ESPN"
   ],
@@ -29,7 +29,7 @@
   "last_seen": "2026-07-26",
   "mentions": 2,
   "best_tier": 3,
-  "temperature": 7.6,
+  "temperature": 5.2,
   "sources": [
    "ESPN"
   ],
@@ -41,7 +41,7 @@
   "last_seen": "2026-07-26",
   "mentions": 1,
   "best_tier": 4,
-  "temperature": 1.6,
+  "temperature": 1.1,
   "sources": [
    "Bleacher Report"
   ],
@@ -53,7 +53,7 @@
   "last_seen": "2026-07-26",
   "mentions": 1,
   "best_tier": 4,
-  "temperature": 1.6,
+  "temperature": 1.1,
   "sources": [
    "Bleacher Report"
   ],
@@ -65,7 +65,7 @@
   "last_seen": "2026-07-26",
   "mentions": 1,
   "best_tier": 4,
-  "temperature": 1.6,
+  "temperature": 1.1,
   "sources": [
    "Bleacher Report"
   ],
@@ -77,7 +77,7 @@
   "last_seen": "2026-07-26",
   "mentions": 1,
   "best_tier": 4,
-  "temperature": 1.6,
+  "temperature": 1.1,
   "sources": [
    "Goal.com"
   ],

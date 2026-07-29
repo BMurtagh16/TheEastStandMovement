@@ -1,24 +1,9 @@
 {
- "collected": "2026-07-29T09:31+00:00",
+ "collected": "2026-07-29T18:50+00:00",
  "items": [
   {
-   "headline": "Tynan Thompson signs for Manchester United",
-   "summary": "Young player Tynan Thompson joins Manchester United. Details of the transfer are limited in available reporting.",
-   "source": "Manchester United",
-   "url": "https://www.manutd.com/en/news",
-   "published": "24 Jul",
-   "category": "transfers",
-   "tone": 1,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 1,
-   "people": [
-    "Tynan Thompson"
-   ]
-  },
-  {
-   "headline": "Sesko continues recovery from injury",
-   "summary": "Benjamin Sesko is progressing with his injury recovery and is described as 'getting there' in his rehabilitation process.",
+   "headline": "Benjamin Sesko progressing well in recovery from injury",
+   "summary": "Manchester United striker Benjamin Sesko is continuing his recovery from injury, having missed pre-season friendlies. Club indicated he is 'getting there'.",
    "source": "Manchester United",
    "url": "https://www.manutd.com/en/news",
    "published": "28 Jul",
@@ -32,32 +17,49 @@
    ]
   },
   {
-   "headline": "Leitzig joins Manchester United Women",
-   "summary": "Transfer news from Manchester United's women's team with new signing Leitzig joining the club.",
+   "headline": "Manchester United beat Rosenborg 5-0 in pre-season friendly",
+   "summary": "Manchester United defeated Rosenborg 5-0 in a pre-season friendly in Norway, with Shea Lacey scoring the opening goal.",
    "source": "Manchester United",
    "url": "https://www.manutd.com/en/news",
-   "published": "29 Jul",
+   "published": "27 Jul",
+   "category": "match",
+   "tone": 2,
+   "is_rumour": false,
+   "rumour_subject": "",
+   "source_tier": 1,
+   "people": [
+    "Shea Lacey"
+   ]
+  },
+  {
+   "headline": "Kit Margetson joins Manchester United from Swansea",
+   "summary": "Manchester United completed their fifth signing of the summer window with 19-year-old goalkeeper Kit Margetson joining from Swansea.",
+   "source": "Manchester United",
+   "url": "https://www.manutd.com/en/news",
+   "published": "27 Jul",
    "category": "transfers",
    "tone": 1,
    "is_rumour": false,
    "rumour_subject": "",
    "source_tier": 1,
    "people": [
-    "Leitzig"
+    "Kit Margetson"
    ]
   },
   {
-   "headline": "Rosenborg friendly squad confirmed",
-   "summary": "Manchester United confirms squad selection for friendly match against Rosenborg in Norway.",
+   "headline": "Tynan Thompson completes Manchester United move",
+   "summary": "Manchester United confirmed the signing of Tynan Thompson, completing another arrival in the summer transfer window.",
    "source": "Manchester United",
    "url": "https://www.manutd.com/en/news",
-   "published": "28 Jul",
-   "category": "match",
-   "tone": 0,
+   "published": "24 Jul",
+   "category": "transfers",
+   "tone": 1,
    "is_rumour": false,
    "rumour_subject": "",
    "source_tier": 1,
-   "people": []
+   "people": [
+    "Tynan Thompson"
+   ]
   }
  ]
 }
