@@ -1,26 +1,11 @@
 {
- "collected": "2026-07-30T09:24+00:00",
+ "collected": "2026-07-30T19:06+00:00",
  "items": [
   {
-   "headline": "Sesko on track to return from shin injury before 2026-27 season",
-   "summary": "Benjamin Sesko is following his recovery plan and has a chance of playing in the Atletico Madrid friendly on August 1.",
-   "source": "Sports Mole",
-   "url": "https://www.sportsmole.co.uk/football/man-utd/injury-news/news/sesko-injury-latest-should-man-utd-fans-be-concerned-about-absent-forward_601947.html",
-   "published": "27 Jul",
-   "category": "team news",
-   "tone": 1,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 3,
-   "people": [
-    "Benjamin Sesko"
-   ]
-  },
-  {
-   "headline": "Manchester United beat Rosenborg 5-0 in pre-season friendly",
-   "summary": "Shea Lacey scored opening goal as United dominated in Norway. Joshua Zirkzee also netted in comfortable victory.",
-   "source": "United In Focus",
-   "url": "https://www.unitedinfocus.com/",
+   "headline": "Manchester United beat Rosenborg 5-0 in preseason friendly",
+   "summary": "United won 5-0 against Rosenborg in Trondheim, Norway on July 25. Joshua Zirkzee scored a notable individual goal. Squad including Leny Yoro, Bryan Mbeumo, Andrey Santos.",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/sport/football/2026/07/26/manchester-united-pre-season-update-transfers-injuries-and-marcus-rashfords-situation/",
    "published": "26 Jul",
    "category": "match",
    "tone": 2,
@@ -28,15 +13,18 @@
    "rumour_subject": "",
    "source_tier": 3,
    "people": [
-    "Shea Lacey",
-    "Joshua Zirkzee"
+    "Joshua Zirkzee",
+    "Leny Yoro",
+    "Bryan Mbeumo",
+    "Andrey Santos",
+    "Michael Carrick"
    ]
   },
   {
-   "headline": "Zirkzee's Rosenborg performance insufficient to save his United career",
-   "summary": "Joshua Zirkzee scored but his struggles suggest his Old Trafford spell is likely to end this summer.",
-   "source": "United In Focus",
-   "url": "https://www.unitedinfocus.com/",
+   "headline": "Joshua Zirkzee future uncertain amid Italian club interest",
+   "summary": "Zirkzee could move after failing to perform to required standard in two seasons. Italian clubs interested. Scored against Rosenborg but remains potential departure candidate.",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/sport/football/2026/07/26/manchester-united-pre-season-update-transfers-injuries-and-marcus-rashfords-situation/",
    "published": "26 Jul",
    "category": "transfers",
    "tone": -1,
@@ -48,33 +36,18 @@
    ]
   },
   {
-   "headline": "Juventus closing in on Joshua Zirkzee loan agreement",
-   "summary": "The Dutchman appears set to leave United this summer with Italian club pursuing temporary deal.",
-   "source": "The Peoples Person",
-   "url": "https://thepeoplesperson.com/2026/07/27/benjamin-sesko-when-slovenian-will-return-to-action-revealed-313345/",
-   "published": "27 Jul",
-   "category": "transfers",
-   "tone": 0,
-   "is_rumour": true,
-   "rumour_subject": "Joshua Zirkzee",
-   "source_tier": 3,
-   "people": [
-    "Joshua Zirkzee"
-   ]
-  },
-  {
-   "headline": "Carrick names youngsters as untouchable amid summer transfer activity",
-   "summary": "Manager designates young prospects as key to club's future despite ongoing recruitment.",
-   "source": "Manchester United official sources",
-   "url": "",
-   "published": "30 Jul",
-   "category": "club",
+   "headline": "Benjamin Sesko continues injury recovery, expected fit for Premier League",
+   "summary": "Sesko unavailable for preseason after shin injury from final stretch of last season. Expected to be fully fit for Premier League campaign start.",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/sport/football/2026/07/26/manchester-united-pre-season-update-transfers-injuries-and-marcus-rashfords-situation/",
+   "published": "26 Jul",
+   "category": "team news",
    "tone": 0,
    "is_rumour": false,
    "rumour_subject": "",
-   "source_tier": 2,
+   "source_tier": 3,
    "people": [
-    "Michael Carrick"
+    "Benjamin Sesko"
    ]
   }
  ]

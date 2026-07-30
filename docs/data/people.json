@@ -4,17 +4,22 @@
  "board": [
   {
    "name": "Benjamin Sesko",
-   "count": 6,
+   "count": 7,
    "last": "2026-07-30"
   },
   {
    "name": "Joshua Zirkzee",
-   "count": 4,
+   "count": 6,
    "last": "2026-07-30"
   },
   {
    "name": "Michael Carrick",
    "count": 3,
+   "last": "2026-07-30"
+  },
+  {
+   "name": "Andrey Santos",
+   "count": 2,
    "last": "2026-07-30"
   },
   {
@@ -28,9 +33,9 @@
    "last": "2026-07-29"
   },
   {
-   "name": "Andrey Santos",
+   "name": "Bryan Mbeumo",
    "count": 1,
-   "last": "2026-07-28"
+   "last": "2026-07-30"
   },
   {
    "name": "JJ Gabriel",
@@ -51,6 +56,11 @@
    "name": "Leitzig",
    "count": 1,
    "last": "2026-07-29"
+  },
+  {
+   "name": "Leny Yoro",
+   "count": 1,
+   "last": "2026-07-30"
   },
   {
    "name": "Lisandro Martinez",
