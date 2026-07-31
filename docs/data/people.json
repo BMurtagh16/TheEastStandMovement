@@ -1,11 +1,11 @@
 {
  "window_days": 30,
- "updated": "2026-07-30",
+ "updated": "2026-07-31",
  "board": [
   {
    "name": "Benjamin Sesko",
-   "count": 7,
-   "last": "2026-07-30"
+   "count": 8,
+   "last": "2026-07-31"
   },
   {
    "name": "Joshua Zirkzee",
@@ -18,14 +18,19 @@
    "last": "2026-07-30"
   },
   {
+   "name": "Shea Lacey",
+   "count": 3,
+   "last": "2026-07-31"
+  },
+  {
    "name": "Andrey Santos",
    "count": 2,
    "last": "2026-07-30"
   },
   {
-   "name": "Shea Lacey",
+   "name": "Leitzig",
    "count": 2,
-   "last": "2026-07-29"
+   "last": "2026-07-31"
   },
   {
    "name": "Tynan Thompson",
@@ -49,11 +54,6 @@
   },
   {
    "name": "Kit Margetson",
-   "count": 1,
-   "last": "2026-07-29"
-  },
-  {
-   "name": "Leitzig",
    "count": 1,
    "last": "2026-07-29"
   },
