@@ -1,49 +1,67 @@
 {
- "collected": "2026-07-31T09:36+00:00",
+ "collected": "2026-07-31T19:03+00:00",
  "items": [
   {
-   "headline": "Sesko recovery progressing as United prepares for new season",
-   "summary": "Benjamin Sesko is progressing with his recovery and is 'getting there' ahead of upcoming friendlies",
-   "source": "Manchester United Official",
-   "url": "https://www.manutd.com/en/news",
+   "headline": "Tyler Fredricson moves to FC Lausanne-Sport on permanent deal",
+   "summary": "21-year-old centre-back leaves Old Trafford permanently to join Swiss club Lausanne-Sport. Deal includes sell-on and buy-back clauses.",
+   "source": "Yahoo Sports",
+   "url": "https://sports.yahoo.com/articles/latest-manchester-united-transfer-confirmed-133558593.html",
    "published": "30 Jul",
-   "category": "team news",
-   "tone": 1,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 1,
-   "people": [
-    "Benjamin Sesko"
-   ]
-  },
-  {
-   "headline": "United Women sign Leitzig in transfer window",
-   "summary": "Manchester United Women add Leitzig to their squad during the summer transfer window",
-   "source": "Manchester United Official",
-   "url": "https://www.manutd.com/en/news",
-   "published": "31 Jul",
    "category": "transfers",
    "tone": 0,
    "is_rumour": false,
    "rumour_subject": "",
-   "source_tier": 1,
+   "source_tier": 3,
    "people": [
-    "Leitzig"
+    "Tyler Fredricson"
    ]
   },
   {
-   "headline": "Rosenborg 0-5 Manchester United in pre-season friendly",
-   "summary": "United defeated Rosenborg 5-0 in a pre-season fixture with Shea Lacey scoring the opening goal",
-   "source": "United In Focus",
-   "url": "https://www.unitedinfocus.com/",
+   "headline": "Iliman Ndiaye valued at £70m as Carrick seeks Rashford replacement",
+   "summary": "Michael Carrick informed Everton's Iliman Ndiaye valued at around £70m in pursuit of winger options. United face Saudi Pro League competition for the target.",
+   "source": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/man-city/transfer-talk/feature/man-united-transfer-news-today-done-deals-live-updates-and-rumours-july-29_602026.html",
    "published": "29 Jul",
-   "category": "match",
+   "category": "transfers",
+   "tone": -1,
+   "is_rumour": true,
+   "rumour_subject": "Iliman Ndiaye",
+   "source_tier": 3,
+   "people": [
+    "Michael Carrick",
+    "Marcus Rashford",
+    "Iliman Ndiaye"
+   ]
+  },
+  {
+   "headline": "Roma exploring Rashford loan with Manu Kone exchange deal",
+   "summary": "Italian club Roma interested in taking Rashford on loan as part of player-plus-cash structure to bring French midfielder Manu Kone to Old Trafford for around £51m.",
+   "source": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/man-city/transfer-talk/feature/man-united-transfer-news-today-done-deals-live-updates-and-rumours-july-29_602026.html",
+   "published": "29 Jul",
+   "category": "transfers",
+   "tone": 1,
+   "is_rumour": true,
+   "rumour_subject": "Marcus Rashford",
+   "source_tier": 3,
+   "people": [
+    "Marcus Rashford",
+    "Manu Kone"
+   ]
+  },
+  {
+   "headline": "Youri Tielemans signed from Aston Villa via release clause",
+   "summary": "United activated release clause to sign 29-year-old midfielder Tielemans from Aston Villa in a quick deal as part of summer strengthening.",
+   "source": "Team Talk",
+   "url": "https://www.teamtalk.com/manchester-united/every-completed-man-utd-transfer-summer-2026-signings-exits-loans",
+   "published": "30 Jul",
+   "category": "transfers",
    "tone": 2,
    "is_rumour": false,
    "rumour_subject": "",
    "source_tier": 3,
    "people": [
-    "Shea Lacey"
+    "Youri Tielemans"
    ]
   }
  ]

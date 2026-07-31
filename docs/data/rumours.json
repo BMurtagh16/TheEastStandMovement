@@ -5,7 +5,7 @@
   "last_seen": "2026-07-26",
   "mentions": 1,
   "best_tier": 3,
-  "temperature": 0.5,
+  "temperature": 0.3,
   "sources": [
    "ESPN"
   ],
@@ -17,7 +17,7 @@
   "last_seen": "2026-07-26",
   "mentions": 1,
   "best_tier": 3,
-  "temperature": 0.5,
+  "temperature": 0.3,
   "sources": [
    "ESPN"
   ],
@@ -26,12 +26,13 @@
  "marcus-rashford": {
   "subject": "Marcus Rashford",
   "first_seen": "2026-07-26",
-  "last_seen": "2026-07-26",
-  "mentions": 2,
+  "last_seen": "2026-07-31",
+  "mentions": 3,
   "best_tier": 3,
-  "temperature": 1.0,
+  "temperature": 12.5,
   "sources": [
-   "ESPN"
+   "ESPN",
+   "Sports Mole"
   ],
   "status": "live"
  },
@@ -41,7 +42,7 @@
   "last_seen": "2026-07-26",
   "mentions": 1,
   "best_tier": 4,
-  "temperature": 0.2,
+  "temperature": 0.1,
   "sources": [
    "Bleacher Report"
   ],
@@ -53,7 +54,7 @@
   "last_seen": "2026-07-26",
   "mentions": 1,
   "best_tier": 4,
-  "temperature": 0.2,
+  "temperature": 0.1,
   "sources": [
    "Bleacher Report"
   ],
@@ -65,7 +66,7 @@
   "last_seen": "2026-07-30",
   "mentions": 4,
   "best_tier": 3,
-  "temperature": 32.3,
+  "temperature": 28.4,
   "sources": [
    "Bleacher Report",
    "United In Focus",
@@ -80,9 +81,21 @@
   "last_seen": "2026-07-26",
   "mentions": 1,
   "best_tier": 4,
-  "temperature": 0.2,
+  "temperature": 0.1,
   "sources": [
    "Goal.com"
+  ],
+  "status": "live"
+ },
+ "iliman-ndiaye": {
+  "subject": "Iliman Ndiaye",
+  "first_seen": "2026-07-31",
+  "last_seen": "2026-07-31",
+  "mentions": 1,
+  "best_tier": 3,
+  "temperature": 12.0,
+  "sources": [
+   "Sports Mole"
   ],
   "status": "live"
  }
