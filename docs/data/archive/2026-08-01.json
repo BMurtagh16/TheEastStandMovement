@@ -1,56 +1,25 @@
 {
- "collected": "2026-08-01T08:59+00:00",
+ "collected": "2026-08-01T18:49+00:00",
  "items": [
   {
-   "headline": "Tyler Fredricson leaves United to join FC Lausanne-Sport",
-   "summary": "Academy defender Tyler Fredricson, 21, exits on permanent deal with Ineos-owned Swiss club. Transfer includes sell-on and buy-back clause.",
-   "source": "GiveMeSport / Yahoo Sports",
-   "url": "https://sports.yahoo.com/articles/latest-manchester-united-transfer-confirmed-133558593.html",
+   "headline": "Tyler Fredricson departs United to join FC Lausanne-Sport",
+   "summary": "Centre-back Tyler Fredricson has left Manchester United on a permanent basis to join FC Lausanne-Sport for an undisclosed fee. The Swiss club is under Ineos ownership.",
+   "source": "Manchester United",
+   "url": "https://www.manutd.com/en/news",
    "published": "30 Jul",
    "category": "transfers",
    "tone": 0,
    "is_rumour": false,
    "rumour_subject": "",
-   "source_tier": 2,
+   "source_tier": 1,
    "people": [
     "Tyler Fredricson"
    ]
   },
   {
-   "headline": "Marcus Rashford bids farewell to Barcelona after loan ends",
-   "summary": "Barcelona did not exercise €30m option to make Rashford's loan permanent. Forward thanked club on Instagram.",
-   "source": "Yahoo Sports",
-   "url": "https://sports.yahoo.com/articles/latest-manchester-united-transfer-confirmed-133558593.html",
-   "published": "31 Jul",
-   "category": "transfers",
-   "tone": -1,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 3,
-   "people": [
-    "Marcus Rashford"
-   ]
-  },
-  {
-   "headline": "Youri Tielemans and Senne Lammens return for pre-season",
-   "summary": "Midfielder Tielemans and defender Lammens have joined first-team training after summer break. Squad building for Champions League campaign.",
-   "source": "Manchester United official",
-   "url": "https://www.manutd.com/en/news",
-   "published": "31 Jul",
-   "category": "team news",
-   "tone": 1,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 1,
-   "people": [
-    "Youri Tielemans",
-    "Senne Lammens"
-   ]
-  },
-  {
-   "headline": "Benjamin Sesko described as 'getting there' with recovery",
-   "summary": "Striker's injury recovery progressing positively ahead of new season. Club providing update on availability.",
-   "source": "Manchester United official",
+   "headline": "Sesko 'getting there' with recovery",
+   "summary": "Benjamin Sesko is progressing in his recovery from injury and will be monitored ahead of upcoming fixtures.",
+   "source": "Manchester United",
    "url": "https://www.manutd.com/en/news",
    "published": "31 Jul",
    "category": "team news",
@@ -61,6 +30,32 @@
    "people": [
     "Benjamin Sesko"
    ]
+  },
+  {
+   "headline": "United confirm squad for Atletico Madrid friendly",
+   "summary": "Manchester United have named a 23-man squad for the pre-season friendly against Atletico Madrid, with two first-team players returning.",
+   "source": "Manchester Evening News",
+   "url": "",
+   "published": "01 Aug",
+   "category": "match",
+   "tone": 0,
+   "is_rumour": false,
+   "rumour_subject": "",
+   "source_tier": 3,
+   "people": []
+  },
+  {
+   "headline": "Rosenborg v United squad selection announced",
+   "summary": "Manchester United have released their squad selection for the pre-season fixture against Rosenborg.",
+   "source": "Manchester United",
+   "url": "https://www.manutd.com/en/news",
+   "published": "31 Jul",
+   "category": "match",
+   "tone": 0,
+   "is_rumour": false,
+   "rumour_subject": "",
+   "source_tier": 1,
+   "people": []
   }
  ]
 }
