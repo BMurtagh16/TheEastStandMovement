@@ -29,7 +29,7 @@
   "last_seen": "2026-07-31",
   "mentions": 3,
   "best_tier": 3,
-  "temperature": 7.5,
+  "temperature": 5.8,
   "sources": [
    "ESPN",
    "Sports Mole"
@@ -66,7 +66,7 @@
   "last_seen": "2026-07-30",
   "mentions": 4,
   "best_tier": 3,
-  "temperature": 11.6,
+  "temperature": 7.9,
   "sources": [
    "Bleacher Report",
    "United In Focus",
@@ -93,7 +93,7 @@
   "last_seen": "2026-07-31",
   "mentions": 1,
   "best_tier": 3,
-  "temperature": 7.2,
+  "temperature": 5.6,
   "sources": [
    "Sports Mole"
   ],

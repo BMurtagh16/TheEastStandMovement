@@ -1,110 +1,47 @@
 {
- "collected": "2026-08-02T09:04+00:00",
+ "collected": "2026-08-02T18:49+00:00",
  "items": [
   {
-   "headline": "Sesko returns to training as injury recovery progresses",
-   "summary": "Benjamin Sesko is back training on grass after injury, bulked up in training but expected to slim down during full training preparation.",
-   "source": "The National",
-   "url": "https://www.thenationalnews.com/sport/football/2026/07/26/manchester-united-pre-season-update-transfers-injuries-and-marcus-rashfords-situation/",
-   "published": "26 Jul",
+   "headline": "Sesko recovery progressing well ahead of new season",
+   "summary": "Benjamin Sesko is progressing with his recovery and getting ready for the upcoming campaign, according to club updates.",
+   "source": "Manchester United",
+   "url": "https://www.manutd.com/en/news",
+   "published": "01 Aug",
    "category": "team news",
    "tone": 1,
    "is_rumour": false,
    "rumour_subject": "",
-   "source_tier": 3,
+   "source_tier": 1,
    "people": [
     "Benjamin Sesko"
    ]
   },
   {
-   "headline": "Andrey Santos completes £48m move from Chelsea",
-   "summary": "Brazilian defensive midfielder Andrey Santos signed for £48 million plus £2 million in probable add-ons from Chelsea, impressing with his intelligence off the ball.",
-   "source": "The National",
-   "url": "https://www.thenationalnews.com/sport/football/2026/07/26/manchester-united-pre-season-update-transfers-injuries-and-marcus-rashfords-situation/",
-   "published": "26 Jul",
+   "headline": "Rosenborg squad announcement for preseason clash",
+   "summary": "Manchester United announced their squad selection for the preseason fixture against Rosenborg in Norway.",
+   "source": "Manchester United",
+   "url": "https://www.manutd.com/en/news",
+   "published": "01 Aug",
+   "category": "match",
+   "tone": 0,
+   "is_rumour": false,
+   "rumour_subject": "",
+   "source_tier": 1,
+   "people": []
+  },
+  {
+   "headline": "Leitzig joins Manchester United Women on transfer",
+   "summary": "Manchester United Women completed the transfer of Leitzig, with the deal confirmed through official club channels.",
+   "source": "Manchester United",
+   "url": "https://www.manutd.com/en/news",
+   "published": "02 Aug",
    "category": "transfers",
    "tone": 1,
    "is_rumour": false,
    "rumour_subject": "",
-   "source_tier": 3,
+   "source_tier": 1,
    "people": [
-    "Andrey Santos"
-   ]
-  },
-  {
-   "headline": "Youri Tielemans signs as United activate Aston Villa release clause",
-   "summary": "Belgium captain Youri Tielemans, 29, has joined Manchester United via release clause activation at Aston Villa.",
-   "source": "The National",
-   "url": "https://www.thenationalnews.com/sport/football/2026/07/26/manchester-united-pre-season-update-transfers-injuries-and-marcus-rashfords-situation/",
-   "published": "26 Jul",
-   "category": "transfers",
-   "tone": 1,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 3,
-   "people": [
-    "Youri Tielemans"
-   ]
-  },
-  {
-   "headline": "De Ligt absent from pre-season following back surgery",
-   "summary": "Matthijs de Ligt has not played since November 2025 after undergoing back surgery and is expected to miss opening weeks of the new season.",
-   "source": "Man United News",
-   "url": "",
-   "published": "Jul",
-   "category": "team news",
-   "tone": -1,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 3,
-   "people": [
-    "Matthijs de Ligt"
-   ]
-  },
-  {
-   "headline": "Ugarte faces lengthy absence after World Cup knee injury",
-   "summary": "Manuel Ugarte suffered a devastating knee injury in the World Cup group stage against Spain and is expected to miss majority of the new campaign.",
-   "source": "Man United News",
-   "url": "",
-   "published": "Jul",
-   "category": "team news",
-   "tone": -2,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 3,
-   "people": [
-    "Manuel Ugarte"
-   ]
-  },
-  {
-   "headline": "Manchester United pursue Lewis Hall from Newcastle",
-   "summary": "Manchester United set to open discussions with Newcastle over left-back Lewis Hall, seen as ideal replacement for injury-prone Luke Shaw.",
-   "source": "Last Word on Sports",
-   "url": "https://lastwordonsports.com/football/2026/08/01/manchester-united-target/",
-   "published": "01 Aug",
-   "category": "transfers",
-   "tone": 0,
-   "is_rumour": true,
-   "rumour_subject": "Lewis Hall",
-   "source_tier": 3,
-   "people": [
-    "Lewis Hall",
-    "Luke Shaw"
-   ]
-  },
-  {
-   "headline": "Karl Darlow joins as goalkeeper backup",
-   "summary": "Karl Darlow has been brought into Manchester United as goalkeeper backup during the summer transfer window.",
-   "source": "Last Word on Sports",
-   "url": "https://lastwordonsports.com/football/2026/08/01/manchester-united-target/",
-   "published": "01 Aug",
-   "category": "transfers",
-   "tone": 0,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 3,
-   "people": [
-    "Karl Darlow"
+    "Leitzig"
    ]
   }
  ]

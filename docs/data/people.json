@@ -4,7 +4,7 @@
  "board": [
   {
    "name": "Benjamin Sesko",
-   "count": 11,
+   "count": 12,
    "last": "2026-08-02"
   },
   {
@@ -33,6 +33,11 @@
    "last": "2026-08-02"
   },
   {
+   "name": "Leitzig",
+   "count": 3,
+   "last": "2026-08-02"
+  },
+  {
    "name": "Shea Lacey",
    "count": 3,
    "last": "2026-07-31"
@@ -46,11 +51,6 @@
    "name": "Karl Darlow",
    "count": 2,
    "last": "2026-08-02"
-  },
-  {
-   "name": "Leitzig",
-   "count": 2,
-   "last": "2026-07-31"
   },
   {
    "name": "Tynan Thompson",
