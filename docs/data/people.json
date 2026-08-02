@@ -1,11 +1,11 @@
 {
  "window_days": 30,
- "updated": "2026-08-01",
+ "updated": "2026-08-02",
  "board": [
   {
    "name": "Benjamin Sesko",
-   "count": 10,
-   "last": "2026-08-01"
+   "count": 11,
+   "last": "2026-08-02"
   },
   {
    "name": "Joshua Zirkzee",
@@ -23,6 +23,16 @@
    "last": "2026-07-31"
   },
   {
+   "name": "Youri Tielemans",
+   "count": 4,
+   "last": "2026-08-02"
+  },
+  {
+   "name": "Andrey Santos",
+   "count": 3,
+   "last": "2026-08-02"
+  },
+  {
    "name": "Shea Lacey",
    "count": 3,
    "last": "2026-07-31"
@@ -33,14 +43,9 @@
    "last": "2026-08-01"
   },
   {
-   "name": "Youri Tielemans",
-   "count": 3,
-   "last": "2026-08-01"
-  },
-  {
-   "name": "Andrey Santos",
+   "name": "Karl Darlow",
    "count": 2,
-   "last": "2026-07-30"
+   "last": "2026-08-02"
   },
   {
    "name": "Leitzig",
@@ -64,11 +69,6 @@
   },
   {
    "name": "JJ Gabriel",
-   "count": 1,
-   "last": "2026-07-27"
-  },
-  {
-   "name": "Karl Darlow",
    "count": 1,
    "last": "2026-07-27"
   },
