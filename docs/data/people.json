@@ -1,11 +1,11 @@
 {
  "window_days": 30,
- "updated": "2026-08-02",
+ "updated": "2026-08-03",
  "board": [
   {
    "name": "Benjamin Sesko",
-   "count": 12,
-   "last": "2026-08-02"
+   "count": 13,
+   "last": "2026-08-03"
   },
   {
    "name": "Joshua Zirkzee",
@@ -13,19 +13,19 @@
    "last": "2026-07-30"
   },
   {
-   "name": "Marcus Rashford",
-   "count": 4,
-   "last": "2026-08-01"
-  },
-  {
    "name": "Michael Carrick",
-   "count": 4,
-   "last": "2026-07-31"
+   "count": 6,
+   "last": "2026-08-03"
   },
   {
    "name": "Youri Tielemans",
+   "count": 5,
+   "last": "2026-08-03"
+  },
+  {
+   "name": "Marcus Rashford",
    "count": 4,
-   "last": "2026-08-02"
+   "last": "2026-08-01"
   },
   {
    "name": "Andrey Santos",
@@ -48,9 +48,24 @@
    "last": "2026-08-01"
   },
   {
+   "name": "Bryan Mbeumo",
+   "count": 2,
+   "last": "2026-08-03"
+  },
+  {
+   "name": "JJ Gabriel",
+   "count": 2,
+   "last": "2026-08-03"
+  },
+  {
    "name": "Karl Darlow",
    "count": 2,
    "last": "2026-08-02"
+  },
+  {
+   "name": "Leny Yoro",
+   "count": 2,
+   "last": "2026-08-03"
   },
   {
    "name": "Tynan Thompson",
@@ -58,24 +73,9 @@
    "last": "2026-07-29"
   },
   {
-   "name": "Bryan Mbeumo",
-   "count": 1,
-   "last": "2026-07-30"
-  },
-  {
    "name": "Iliman Ndiaye",
    "count": 1,
    "last": "2026-07-31"
-  },
-  {
-   "name": "JJ Gabriel",
-   "count": 1,
-   "last": "2026-07-27"
-  },
-  {
-   "name": "Kit Margetson",
-   "count": 1,
-   "last": "2026-07-29"
   }
  ]
 }
