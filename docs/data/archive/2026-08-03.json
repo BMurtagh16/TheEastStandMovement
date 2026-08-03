@@ -1,14 +1,14 @@
 {
- "collected": "2026-08-03T10:31+00:00",
+ "collected": "2026-08-03T19:14+00:00",
  "items": [
   {
-   "headline": "Sesko recovery progressing ahead of new season",
-   "summary": "Benjamin Sesko is progressing well in his recovery, according to club updates shared a day ago.",
-   "source": "Manchester United Official",
+   "headline": "Sesko progressing well in injury recovery",
+   "summary": "Benjamin Sesko continuing recovery process ahead of upcoming fixtures after withdrawal from international duty",
+   "source": "Manchester United",
    "url": "https://www.manutd.com/en/news",
-   "published": "02 Aug",
+   "published": "2 Aug",
    "category": "team news",
-   "tone": 1,
+   "tone": 0,
    "is_rumour": false,
    "rumour_subject": "",
    "source_tier": 1,
@@ -17,80 +17,31 @@
    ]
   },
   {
-   "headline": "Mbeumo scores twice in Atletico Madrid victory",
-   "summary": "Bryan Mbeumo scored 2 goals as Manchester United defeated Atletico Madrid 2-1 in pre-season competition.",
-   "source": "TNT Sports / Sky Sports",
-   "url": "",
-   "published": "01 Aug",
-   "category": "match",
-   "tone": 2,
+   "headline": "Rosenborg squad confirmed for friendly",
+   "summary": "Manchester United confirm squad selection for pre-season fixture against Rosenborg in Trondheim, Norway",
+   "source": "Manchester United",
+   "url": "https://www.manutd.com/en/news",
+   "published": "2 Aug",
+   "category": "team news",
+   "tone": 0,
    "is_rumour": false,
    "rumour_subject": "",
-   "source_tier": 3,
-   "people": [
-    "Bryan Mbeumo"
-   ]
+   "source_tier": 1,
+   "people": []
   },
   {
-   "headline": "JJ Gabriel makes Manchester United debut vs Atletico Madrid",
-   "summary": "Young player JJ Gabriel made his competitive debut for Manchester United, impressing in final minutes.",
-   "source": "Manchester United Official / Sky Sports",
-   "url": "",
-   "published": "01 Aug",
-   "category": "team news",
+   "headline": "United Women sign forward Leitzig",
+   "summary": "Manchester United Women confirm transfer of forward in squad building move",
+   "source": "Manchester United",
+   "url": "https://www.manutd.com/en/news",
+   "published": "3 Aug",
+   "category": "transfers",
    "tone": 1,
    "is_rumour": false,
    "rumour_subject": "",
    "source_tier": 1,
    "people": [
-    "JJ Gabriel",
-    "Michael Carrick"
-   ]
-  },
-  {
-   "headline": "Yoro to play more minutes at right-back position",
-   "summary": "Michael Carrick indicated Leny Yoro will feature more at right-back following Atletico Madrid performance.",
-   "source": "Sky Sports",
-   "url": "",
-   "published": "01 Aug",
-   "category": "team news",
-   "tone": 0,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 3,
-   "people": [
-    "Leny Yoro",
-    "Michael Carrick"
-   ]
-  },
-  {
-   "headline": "Rasmus Hojlund completes permanent move to Napoli",
-   "summary": "Hojlund departed Manchester United permanently to join Napoli in summer 2026 transfer window.",
-   "source": "GiveMeSport",
-   "url": "",
-   "published": "Jun 29",
-   "category": "transfers",
-   "tone": -1,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 3,
-   "people": [
-    "Rasmus Hojlund"
-   ]
-  },
-  {
-   "headline": "Youri Tielemans signed on five-year deal from Aston Villa",
-   "summary": "Manchester United activated release clause to sign midfielder Tielemans from Aston Villa on five-year contract.",
-   "source": "TeamTalk",
-   "url": "",
-   "published": "Jun",
-   "category": "transfers",
-   "tone": 1,
-   "is_rumour": false,
-   "rumour_subject": "",
-   "source_tier": 3,
-   "people": [
-    "Youri Tielemans"
+    "Leitzig"
    ]
   }
  ]
